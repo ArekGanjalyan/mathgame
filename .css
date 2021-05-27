@@ -1,3 +1,23 @@
 .problem h1 {
   display: inline;
+  font-size: 150px;
+}
+#answer{
+  height: 50px;
+  width: 100px;
+  font-size: 30px;
+}
+#evaluation{
+  font-size: 25px;
+  text-align: center;
+  padding-right: 70px;
+}
+button{
+  height: 40px;
+  width: 70px;
+}
+body {
+  text-align: center;
+  padding-top: 200px;
+  background-color: lightblue;
 }
