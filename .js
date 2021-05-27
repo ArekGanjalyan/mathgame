@@ -2,8 +2,8 @@ const form = document.getElementById("form")
 var num1 = 0;
 var num2 = 0;
 function generateProblem(){
-  num1 = Math.floor(Math.random() * 101);
-  num2 = Math.floor(Math.random() * 101);
+  num1 = Math.floor(Math.random() * 100) + 1;
+  num2 = Math.floor(Math.random() * 100) + 1;
   document.getElementById("num1").innerHTML = num1;
   document.getElementById("num2").innerHTML = num2;
 }
